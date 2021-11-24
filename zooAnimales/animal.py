@@ -38,7 +38,12 @@ class Animal:
         import zooAnimales.ave
         import zooAnimales.reptil
         import zooAnimales.pez
-        return "Mamiferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(zooAnimales.mamifero.Mamifero.cantidadMamiferos(), zooAnimales.ave.Ave.cantidadAves(), zooAnimales.reptil.Reptil.cantidadReptiles(), zooAnimales.pez.Pez.cantidadPeces(), zooAnimales.anfibio.Anfibio.cantidadAnfibios())
+        return "Mamiferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(
+            zooAnimales.mamifero.Mamifero.cantidadMamiferos(),
+            zooAnimales.ave.Ave.cantidadAves(),
+            zooAnimales.reptil.Reptil.cantidadReptiles(),
+            zooAnimales.pez.Pez.cantidadPeces(),
+            zooAnimales.anfibio.Anfibio.cantidadAnfibios())
 
     def toString(self):
         return "Mi nombre es {}, tengo una edad de {}, habito en {} y mi genero es {}".format(self._nombre, self._edad, self._habitat, self._genero)
