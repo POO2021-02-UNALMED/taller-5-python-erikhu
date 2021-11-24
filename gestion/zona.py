@@ -11,7 +11,7 @@ class Zona:
         return self._nombre
 
     def agregarAnimales(self, animal):
-        self._animales.insert(animal)
+        self._animales.append(animal)
 
     def cantidadAnimales(self):
         return self._animales.count()
