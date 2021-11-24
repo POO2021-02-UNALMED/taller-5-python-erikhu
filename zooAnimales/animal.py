@@ -41,4 +41,4 @@ class Animal:
         return ""
 
     def toString(self):
-        return "Mi nombre es {}, tengo una edad de {},habito en {} y mi genero es {}".format(self._nombre, self._edad, self._habitat, self._genero)
+        return "Mi nombre es {}, tengo una edad de {}, habito en {} y mi genero es {}".format(self._nombre, self._edad, self._habitat, self._genero)
