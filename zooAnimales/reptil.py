@@ -1,4 +1,4 @@
-from zooAnimales.animal import Animal
+from zooAnimales.animal import *
 
 class Reptil(Animal):
     serpientes = 0
