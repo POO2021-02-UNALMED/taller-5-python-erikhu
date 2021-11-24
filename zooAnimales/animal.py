@@ -7,7 +7,7 @@
 class Animal:
     totalAnimales = 0;
 
-    def __init__(self, nombre, edad, habitat, genero):
+    def __init__(self, nombre='', edad=0, habitat='', genero=''):
         self._nombre = nombre
         self._edad = edad
         self._habitat = habitat
