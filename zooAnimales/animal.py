@@ -38,7 +38,7 @@ class Animal:
         import zooAnimales.ave
         import zooAnimales.reptil
         import zooAnimales.pez
-        return "Mamiferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(
+        return "Mamiferos : {}\nAves : {}\nReptiles : {}\nPeces : {}\nAnfibios : {}".format(
             zooAnimales.mamifero.Mamifero.cantidadMamiferos(),
             zooAnimales.ave.Ave.cantidadAves(),
             zooAnimales.reptil.Reptil.cantidadReptiles(),
