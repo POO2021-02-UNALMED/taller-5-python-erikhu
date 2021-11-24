@@ -12,7 +12,7 @@ class Reptil(Animal):
 
     @classmethod
     def cantidadReptiles(cls):
-        cls.reptiles.count()
+        len(cls.reptiles)
 
     def getLargoCola(self):
         return self._largoCola

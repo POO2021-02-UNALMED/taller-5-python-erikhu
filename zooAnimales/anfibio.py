@@ -12,7 +12,7 @@ class Anfibio(Animal):
 
     @classmethod
     def cantidadAnfibios(cls):
-        cls.anfibios.count()
+        len(cls.anfibios)
 
     def isVenenoso(self):
         return self._venenoso

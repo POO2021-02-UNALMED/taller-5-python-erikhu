@@ -12,7 +12,7 @@ class Mamifero(Animal):
 
     @classmethod
     def cantidadMamiferos(cls):
-        cls.mamiferos.count()
+        len(cls.mamiferos)
 
     def getPatas(self):
         return self._patas

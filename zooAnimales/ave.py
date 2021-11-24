@@ -11,7 +11,7 @@ class Ave(Animal):
 
     @classmethod
     def cantidadAves(cls):
-        cls.aves.count()
+        len(cls.aves)
 
     def getColorPlumas(self):
         return self._colorPlumas
