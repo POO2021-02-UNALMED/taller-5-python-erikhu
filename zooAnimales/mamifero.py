@@ -8,7 +8,7 @@ class Mamifero(Animal):
         super().__init__(nombre, edad, habitat, genero)
         self._pelaje = pelaje
         self._patas = patas
-        Mamifero.mamiferos.insert(self)
+        Mamifero.mamiferos.append(self)
 
     @classmethod
     def cantidadMamiferos(cls):

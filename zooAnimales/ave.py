@@ -7,7 +7,7 @@ class Ave(Animal):
     def __init__(self, nombre, edad, habitat, genero, colorPlumas):
         super().__init__(nombre, edad, habitat, genero)
         self._colorPlumas = colorPlumas
-        Ave.aves.insert(self)
+        Ave.aves.append(self)
 
     @classmethod
     def cantidadAves(cls):
