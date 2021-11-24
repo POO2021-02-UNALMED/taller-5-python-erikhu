@@ -14,7 +14,7 @@ class Anfibio(Animal):
     def cantidadAnfibios(cls):
         cls.anfibios.count()
 
-    def getVenenoso(self):
+    def isVenenoso(self):
         return self._venenoso
 
     def getColorPiel(self):
