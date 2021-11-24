@@ -1,4 +1,4 @@
-from zooAnimales.animal import *
+from zooAnimales.animal import Animal
 
 class Mamifero(Animal):
     caballos = 0
