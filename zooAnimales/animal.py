@@ -1,8 +1,8 @@
-# from zooAnimales.anfibio import Anfibio
-# from zooAnimales.mamifero import Mamifero
-# from zooAnimales.ave import Ave
-# from zooAnimales.reptil import Reptil
-# from zooAnimales.pez import Pez
+import zooAnimales.anfibio
+import zooAnimales.mamifero
+import zooAnimales.ave
+import zooAnimales.reptil
+import zooAnimales.pez
 
 class Animal:
     totalAnimales = 0;
@@ -37,7 +37,7 @@ class Animal:
 
     @classmethod
     def totalPorTipo(cls):
-        #return "Mamiferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(Mamifero.cantidadMamiferos(), Ave.cantidadAves(), Reptil.cantidadReptiles(), Pez.cantidadPeces(), Anfibio.cantidadAnfibios())
+        return "Mamiferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(zooAnimales.mamifero.Mamifero.cantidadMamiferos(), zooAnimales.ave.Ave.cantidadAves(), zooAnimales.reptil.Reptil.cantidadReptiles(), zooAnimales.pez.Pez.cantidadPeces(), zooAnimales.anfibio.Anfibio.cantidadAnfibios())
         return ""
 
     def toString(self):
